@@ -1,0 +1,43 @@
+# Vivado / Vitis / HLS artifacts
+/hw/work/
+*.xpr
+*.cache/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.gen/
+*.srcs/
+.Xil/
+*.jou
+*.log
+*.str
+*.bit
+*.bin
+*.ltx
+*.xsa
+*.wdb
+*.pb
+
+# Software and PetaLinux build outputs
+*.o
+*.elf
+*.a
+*.so
+**/build/
+**/images/linux/
+**/components/plnx_workspace/
+**/.petalinux/
+
+# Python environments, caches, and model checkpoints
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.pt
+*.pth
+*.onnx
+
+# Keep golden vectors trackable.
+!/model/test_vectors/*.mem
+!/model/test_vectors/*.hex

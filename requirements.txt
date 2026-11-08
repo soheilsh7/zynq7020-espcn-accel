@@ -1,0 +1,6 @@
+# CPU-only PyTorch and TorchVision wheels
+--index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
+numpy
+Pillow
